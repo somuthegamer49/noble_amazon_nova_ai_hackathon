@@ -6,7 +6,7 @@ import json
 app = Flask(__name__)
 CORS(app, origins=["https://noble-app.vercel.app"])
 
-@app.route("/agent", methods=["POST"])
+@app.route("/api/agent", methods=["POST","OPTIONS"])
 def agent():
 
     data = request.json
