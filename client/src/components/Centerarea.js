@@ -49,7 +49,7 @@ const Centerarea = () => {
       const postToBackend = async () => {
         setworking("Working...");
         await axios
-          .post("https://vercel.com/somdutt-acharyas-projects/noble-app/agent", payload, {
+          .post("https://noble-2upg59qz5-somdutt-acharyas-projects.vercel.app/agent", payload, {
             headers: {
               "Content-Type": "application/json",
             },
