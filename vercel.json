@@ -13,7 +13,7 @@
       }
     }
   ],
-  "routes": [
+  "rewrites": [
     {
       "src": "/agent",
       "dest": "api/app.py"
