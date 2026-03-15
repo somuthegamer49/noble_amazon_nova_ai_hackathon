@@ -15,7 +15,7 @@
  ],
  "routes": [
   {
-   "src": "/api/agent",
+   "src": "/agent",
    "dest": "/api/app.py"
   },
   {
