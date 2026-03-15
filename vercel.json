@@ -15,12 +15,12 @@
  ],
  "routes": [
   {
-   "source": "/(.*)",
-   "destination": "/api/app.py"
+   "src": "/(.*)",
+   "dest": "/api/app.py"
   },
   {
-   "source": "/(.*)",
-   "destination": "/client/build/index.html"
+   "src": "/(.*)",
+   "dest": "/client/build/index.html"
   }
  ]
 }
