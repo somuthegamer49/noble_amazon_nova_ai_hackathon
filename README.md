@@ -167,10 +167,8 @@ Event successfully created in Google Calendar.
 
 ### Google Drive
 
-* Create folder
-* Upload files
-* List files
-* Organize documents
+* Read files
+* Get insights
 
 Example:
 
@@ -184,8 +182,6 @@ List all files inside my "Hackathon" folder
 
 * Schedule meetings
 * List upcoming events
-* Update events
-* Delete events
 
 Example:
 
@@ -243,15 +239,11 @@ Steps:
 
 ---
 
-# 📜 License
-
-This project is licensed under the **MIT License**.
-
----
 
 # 👨‍💻 Author
 
 **Somdutt Acharya**
 
-GitHub:
-https://github.com/somuthegamer49
+GitHub: https://github.com/somuthegamer49
+LinkedIn: https://www.linkedin.com/in/somdutt-acharya-29783542/
+YouTube: https://www.youtube.com/@somduttacharya7110
