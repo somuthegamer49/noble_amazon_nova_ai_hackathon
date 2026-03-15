@@ -15,12 +15,12 @@
   ],
   "rewrites": [
     {
-      "src": "/agent",
-      "dest": "api/app.py"
+      "source": "/api/(.*)",
+      "destination": "/api/app.py"
     },
     {
-      "src": "/(.*)",
-      "dest": "client/$1"
+      "source": "/(.*)",
+      "destination": "/client/dist/index.html"
     }
   ]
 }
