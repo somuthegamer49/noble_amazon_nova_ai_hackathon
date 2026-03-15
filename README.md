@@ -135,11 +135,10 @@ pip install -r requirements.txt
 Create a `.env` file:
 
 ```
-AWS_ACCESS_KEY_ID=your_key
-AWS_SECRET_ACCESS_KEY=your_secret
+AWS_ACCESS_KEY="YOUR_ACCESS_KEY"
+AWS_SECRET_KEY="YOUR_SECRET_KEY"
 AWS_REGION=us-east-1
-
-GOOGLE_ACCESS_TOKEN=your_google_access_token
+AWS_MODEL_ID=us.amazon.nova-2-lite-v1:0
 ```
 
 ---
