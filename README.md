@@ -146,7 +146,7 @@ AWS_MODEL_ID=us.amazon.nova-2-lite-v1:0
 # ▶️ Running the Project
 
 ```bash
-python main.py
+python app.py
 ```
 
 Example prompt:
