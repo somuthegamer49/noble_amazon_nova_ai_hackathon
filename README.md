@@ -113,32 +113,6 @@ Action Execution
 
 ---
 
-# 📂 Project Structure
-
-```
-noble_amazon_nova_ai_hackathon
-│
-├── main.py
-├── nova_client/
-│   └── nova_converse.py
-│
-├── integrations/
-│   ├── google_drive.py
-│   └── google_calendar.py
-│
-├── utils/
-│   ├── token_manager.py
-│   └── request_parser.py
-│
-├── prompts/
-│   └── system_prompt.txt
-│
-├── requirements.txt
-│
-└── README.md
-```
-
----
 
 # ⚙️ Installation
 
