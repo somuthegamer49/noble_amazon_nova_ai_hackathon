@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head class="h-full" lang="en">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+
+    <title>React App</title>
+    <style>
+      @keyframes pulse-dynamic {
+        0%,
+        100% {
+          transform: scale(1) translateY(0);
+          opacity: 0.9;
+          filter: brightness(1.1) drop-shadow(0 0 20px rgba(59, 130, 246, 0.4));
+        }
+        50% {
+          transform: scale(1.1) translateY(-10px);
+          opacity: 1;
+          filter: brightness(1.4) drop-shadow(0 0 45px rgba(59, 130, 246, 0.7));
+        }
+      }
+      .animate-orb {
+        animation: pulse-dynamic 4s ease-in-out infinite;
+      }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.45);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.04);
+      }
+      .led-glow-emerald {
+        box-shadow: 0 0 12px rgba(52, 211, 153, 0.8);
+      }
+      .led-glow-amber {
+        box-shadow: 0 0 12px rgba(251, 191, 36, 0.8);
+      }
+      .led-glow-blue {
+        box-shadow: 0 0 12px rgba(59, 130, 246, 0.8);
+      }
+      body {
+        font-family: "Inter", sans-serif;
+        color: #334155;
+      }
+      .main-bg {
+        background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
+        position: relative;
+        overflow: hidden;
+      }
+      .nebula {
+        position: absolute;
+        inset: 0;
+        background:
+          radial-gradient(
+            circle at 20% 20%,
+            rgba(186, 230, 253, 0.5) 0%,
+            transparent 40%
+          ),
+          radial-gradient(
+            circle at 80% 80%,
+            rgba(165, 180, 252, 0.4) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 50% 50%,
+            rgba(255, 255, 255, 0.3) 0%,
+            transparent 60%
+          );
+        z-index: 0;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div
+      class="main-bg flex items-center justify-center lg:p-6 overflow-y-auto bg-fixed h-[43.45rem]"
+      id="root"
+    ></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
