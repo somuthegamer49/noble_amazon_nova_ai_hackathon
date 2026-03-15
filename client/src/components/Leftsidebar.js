@@ -1,6 +1,6 @@
 import React, { Fragment, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import axios, { all } from "axios";
+import axios from "axios";
 
 const Leftsidebar = () => {
   const googleDriveToken = useSelector((state) => state.googleDriveToken);
