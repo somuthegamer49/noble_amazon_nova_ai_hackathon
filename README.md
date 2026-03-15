@@ -43,7 +43,7 @@ This project builds an **AI-driven automation layer** powered by **Amazon Nova 2
 Example command:
 
 ```
-Create a new folder in Google Drive called Hackathon Docs
+Read a file from Google Drive called Hackathon Docs
 ```
 
 Nova interprets the request and automatically calls the Google Drive API to perform the action.
