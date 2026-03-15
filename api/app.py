@@ -4,7 +4,27 @@ from flask_cors import CORS
 import json
 
 app = Flask(__name__)
-CORS(app, origins=["https://noble-app.vercel.app"])
+CORS(
+ app,
+ resources={
+  r"/*": {
+   "origins": "*",
+   "methods": [
+    "GET",
+    "POST",
+    "PUT",
+    "PATCH",
+    "DELETE",
+    "OPTIONS",
+   ],
+   "allow_headers": [
+    "Content-Type",
+    "Authorization",
+   ],
+  }
+ },
+    origins=["https://noble-app.vercel.app"]
+)
 
 @app.route("/api/agent", methods=["POST","OPTIONS"])
 def agent():
